@@ -7,6 +7,10 @@ A tic-tac-toe inspired game created for a lab in the information systems master 
 The game is a stacked tic-tac-toe with up to 2 levels. A player has to win three "small" boards each containing 
 a tic-tac-toe to win the "large" board that contains the small boards.
 
+Additionally two design patterns from a whitelist had to be implemented, we chose:
+* Composite
+* State
+
 ![Tic tac toe](tic-tac-toe.png?raw=true "Tic tac toe")
 
 A single command line argument provides the coordinates for each player move, where Player X starts and the following coordinates alternate between Player X and Player O. 
